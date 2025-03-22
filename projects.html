@@ -7,6 +7,11 @@
     <title>Desenvolvedora - Projetos</title>
     <link rel="stylesheet" href="src/styles/style.css">
     <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/footer.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/variaveis.css">
+    <link rel="stylesheet" href="src/styles/projects.css">
+    <link rel="stylesheet" href="src/styles/medias.css">
 </head>
 
 <body>
@@ -18,20 +23,53 @@
         </nav>
     </header>
 
-    <main class="apresentacao">
-            <section class="apresentacao__conteudo">
-                <p class="apresentacao__conteudo__texto">Olá! Sou a Vanessa Mendes, graduanda de Engenharia de Software. 
-                    Formada em desenvolvimento Web Full Stack e Cloud computing.
-                    Ajudo pequenos negócios e designers a
-                    colocarem em prática boas ideias. Vamos
-                    conversar?
-                </p> 
-            </section>
-                <img class="apresentacao__imagem" src="src/assets/perfil.png" alt="mulher com camiseta da Generation Brasil">
+    <main>
+        <section class="projetos">
+            <div class="projetos__apresentacao">        
+                <a href="https://mulheresemfoco.netlify.app/">
+                    <img class="projetos__apresentacao__imagem" src="src/assets/mulheres_em_focco.png" alt="E-commerce Mulheres em Foco"/><br>
+                    <h3 class="projetos__apresentacao__subtitulo">Mulheres em Foco</h3>     
+                </a>
+            </div>
+        
+            <div class="projetos__apresentacao" >         
+                <a href="https://frontend-blogpessoal-phi.vercel.app/">
+                    <img class="projetos__apresentacao__imagem" src="src/assets/blog_pessoal.png" alt="Blog Pessoal"/>
+                    <h3 class="projetos__apresentacao__subtitulo">Blog Pessoal</h3>
+                </a>          
+            </div>
+        
+                <div class="projetos__apresentacao" >     
+                    <a href="https://vmendesdev.github.io/amigo_secreto_challenge_one/">
+                        <img class="projetos__apresentacao__imagem" src="src/assets/amigo_secreto.png" alt="" />
+                        <h3 class="projetos__apresentacao__subtitulo">Amigo Secreto</h3>
+                  </a>   
+                </div>
+        
+                <div class="projetos__apresentacao">     
+                    <a href="https://js-game-one-psi.vercel.app/">
+                        <img class="projetos__apresentacao__imagem" src="src/assets/js_game.png" alt="" /><br>
+                        <h3 class="projetos__apresentacao__subtitulo">JS Game</h3>
+                    </a>   
+                </div>
+
+                <div class="projetos__apresentacao">     
+                    <a href="https://youtu.be/PzkNz6MS4HY">
+                        <img class="projetos__apresentacao__imagem" src="src/assets/monitoramento_tcc.png" alt="" /><br>
+                        <h3 class="projetos__apresentacao__subtitulo">TCC AWS</h3>
+                    </a>   
+                </div>
+          </section>
     </main>
-    <footer class="rodape">
-        <p>&copy;2025 - Vanessa Mendes</p>
-    </footer>
     
+    <footer class="rodape">
+        <div class="apresentacao__links">
+            <h2 class="apresentacao__links__subtitulo">Vamos conversar?</h2>
+            <a class="apresentacao__links__navegacao" href="https://github.com/vmendesdev"><img class="apresentacao__links__navegacao__logo" src="src/assets/github.png" alt="logo do github"></a>
+            <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/vanessam-mendes/"><img class=".apresentacao__links__navegacao__logo" src="src/assets/linkedin.png" alt="logo do linkedin"></a>
+            <a class="apresentacao__links__navegacao" href="https://www.instagram.com/vmendesdev/"><img class=".apresentacao__links__navegacao__logo" src="src/assets/instagram.png" alt="logo do instagram"></a>
+        </div>
+    </footer>
+    <script src="src/js/projects.js"></script>
 </body>
 </html>
