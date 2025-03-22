@@ -1,7 +1,7 @@
 .rodape{
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
-    padding: 10px;
+    padding: 20px 20px;
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1rem;

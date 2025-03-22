@@ -8,7 +8,7 @@
     text-transform: capitalize;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 400;
     padding: 25px 40px;
     transition: 0.2s;

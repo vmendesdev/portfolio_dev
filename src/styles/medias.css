@@ -1,0 +1,88 @@
+/* Tablet (telas com largura máxima de 1200px) */
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 10%;  
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse; /* Conteúdo em ordem inversa */
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto; /* Permite ajuste automático */
+    }
+}
+
+/* Tablet menor e smartphones grandes (telas com largura máxima de 1024px) */
+@media (max-width: 1024px) {
+    .rodape {
+        font-size: 0.9rem; /* Reduz o tamanho do texto no rodapé */
+        padding: 15px; /* Ajusta o espaçamento */
+    }
+
+    .cabecalho__menu__link {
+        font-size: 1.5rem; /* Reduz o tamanho do texto do menu */
+        padding: 15px 20px; /* Espaçamento menor */
+    }
+
+    .apresentacao {
+        gap: 20px; /* Diminui o espaçamento entre os elementos */
+    }
+
+    .cabecalho {
+        flex-direction: column; /* Organiza o cabeçalho em coluna */
+        padding: 10px 5%;
+    }
+}
+
+/* Smartphone (telas com largura máxima de 768px) */
+@media (max-width: 768px) {
+    .projetos {
+        grid-template-columns: 1fr; /* Alinha os projetos em uma única coluna */
+        padding: 5%;
+    }
+
+    .projetos__apresentacao {
+        gap: 10px; /* Reduz o espaço entre itens */
+    }
+
+    .projetos__apresentacao__imagem {
+        width: 100%; /* Imagem ocupa toda a largura disponível */
+    }
+
+    .cabecalho {
+        justify-content: center; /* Centraliza o conteúdo */
+        padding: 5%;
+    }
+
+    .cabecalho__menu__link {
+        font-size: 1.2rem; /* Texto ainda menor para smartphones */
+        padding: 10px 15px;
+    }
+
+    .rodape {
+        font-size: 0.8rem; /* Texto do rodapé reduzido */
+    }
+}
+
+/* Telas muito pequenas (largura máxima de 480px) */
+@media (max-width: 480px) {
+    .cabecalho__menu__link {
+        font-size: 1rem; /* Ajusta o tamanho do texto para telas pequenas */
+        padding: 8px 10px;
+    }
+
+    .apresentacao {
+        gap: 10px; /* Espaçamento mínimo entre os elementos */
+    }
+
+    .rodape {
+        font-size: 0.7rem; /* Texto reduzido no rodapé */
+        padding: 10px; /* Ajuste do espaçamento */
+    }
+}

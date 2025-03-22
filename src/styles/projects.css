@@ -1,0 +1,37 @@
+.projetos{
+    width: 100%;
+    padding: 5% 15%;   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center;
+}
+
+.projetos__apresentacao{
+    width: 100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.projetos__apresentacao__subtitulo {
+    font-size: 1rem;
+    font-family: var(--fonte-secundaria);
+    justify-content: center;
+    text-align: left;
+    gap:40px;
+}
+
+.projetos__apresentacao__texto {
+    font-size: 1rem;
+    font-family: var(--fonte-secundaria);
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.projetos__apresentacao__imagem {
+    width: 80%;
+}
