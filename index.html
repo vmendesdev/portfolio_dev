@@ -2,35 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VM - Desenvolvedora</title>
+    <title>Desenvolvedora Full Stack</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/footer.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+    <link rel="stylesheet" href="src/styles/variaveis.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <a href="">Início</a>
-            <a href="">Sobre Mim</a>
-            <a href="">Projetos</a>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Início</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre Mim</a>
+            <a class="cabecalho__menu__link" href="">Projeto</a>
+
         </nav>
     </header>
-    <main>
-        <section>
-            <h1>Eleve seu negócio a outro nível <strong> um Front-End de qualidade!</strong></h1>
-            <p>Olá! Sou a Vanessa Mendes, graduanda de Engenharia de Software. 
-                Formada em desenvolvimento Web Full Stack e Cloud computing.
-            </p>
-            <p>Ajudo pequenos negócios e designers a
-                colocarem em prática boas ideias. Vamos
-                conversar?
-            </p>
-            <h2>Acesse minhas redes</h2>
-            <a href="">GitHub</a>
-            <a href="">Linkedin</a>
-            <a href="">Intagram</a>
+
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo"> Olá, sou a Vanessa Mendes!
+            </h1>
+            <p class="apresentacao__conteudo__texto">Graduanda em <strong class="titulo-destaque"> Engenharia de Software.</strong>
+                Formada em desenvolvimento web full stack e cloud computing. Ajudo pequenos negócios a 
+            colocar em prática boas ideias.
+           </p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
+                <a class="apresentacao__links__navegacao" href="hub.com/vmendesdev/"><img class="apresentacao__links__navegacao__logo" src="src/assets/github.png" alt="logo do github">GitHub</a>
+                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/vanessam-mendes/"><img class=".apresentacao__links__navegacao__logo" src="src/assets/linkedin.png" alt="logo do linkedin">Linkedin</a>
+                <a class="apresentacao__links__navegacao" href="https://www.instagram.com/vmendesdev/"><img class=".apresentacao__links__navegacao__logo" src="src/assets/instagram.png" alt="logo do instagram">Intagram</a>
+            </div>
         </section>
+        <img class="apresentacao__imagem" src="src/assets/perfil.png" alt="mulher com camiseta da Generation Brasil">
     </main>
-    <footer>
-        <p>&copy;2025 - Vanessa Mendes</p>
+    <footer class="rodape">
+        &copy; 2025 - Vanessa Mendes
     </footer>
     
 </body>
