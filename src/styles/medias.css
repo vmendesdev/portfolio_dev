@@ -1,10 +1,10 @@
 /* Tablet (telas com largura máxima de 1200px) */
-@media (max-width: 1200px) {
+@media (max-width: 1200px) { 
     .rodape {
-        position: fixed;
-        font-size: 0.9rem; /* Reduz o tamanho do texto no rodapé */
-        padding: 15px; /* Ajusta o espaçamento */
-    }
+    position: fixed;
+    font-size: 0.9rem; /* Reduz o tamanho do texto no rodapé */
+    padding: 15px; /* Ajusta o espaçamento */
+}
     .cabecalho {
         padding: 10%;  
     }
@@ -90,7 +90,7 @@
 
     .rodape {
         position: fixed;
-        font-size: 0.7rem; /* Texto reduzido no rodapé */
+        font-size: 0.5rem; /* Texto reduzido no rodapé */
         padding: 10px; /* Ajuste do espaçamento */
     }
 }
