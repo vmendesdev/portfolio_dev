@@ -9,6 +9,7 @@
 
 .projetos__apresentacao{
     width: 100%;
+    padding:5% 10%;
     height:auto;
     display: flex;
     align-items: center;
