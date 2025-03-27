@@ -1,7 +1,6 @@
 /* Tablet (telas com largura máxima de 1200px) */
 @media (max-width: 1200px) { 
     .rodape {
-    position: fixed;
     font-size: 0.9rem; /* Reduz o tamanho do texto no rodapé */
     padding: 15px; /* Ajusta o espaçamento */
 }
@@ -26,7 +25,6 @@
 /* Tablet menor e smartphones grandes (telas com largura máxima de 1024px) */
 @media (max-width: 1024px) {
     .rodape {
-        position: fixed;
         font-size: 0.9rem; /* Reduz o tamanho do texto no rodapé */
         padding: 15px; /* Ajusta o espaçamento */
     }
@@ -72,7 +70,6 @@
     }
 
     .rodape {
-        position: fixed;
         font-size: 0.8rem; /* Texto do rodapé reduzido */
     }
 }
@@ -89,7 +86,6 @@
     }
 
     .rodape {
-        position: fixed;
         font-size: 0.5rem; /* Texto reduzido no rodapé */
         padding: 10px; /* Ajuste do espaçamento */
     }
